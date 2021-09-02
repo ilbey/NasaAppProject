@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CardDetails"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date:"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/imageView2"
+        android:layout_alignLeft="@id/imageView2"/>
+
+    <TextView
+        android:id="@+id/textDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_alignBaseline="@id/textViewDate"
+        android:layout_toEndOf="@id/textViewDate"
+        android:layout_toRightOf="@id/textViewDate" />
+
+    <TextView
+        android:id="@+id/textViewCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Camera:"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/textViewDate"
+        android:layout_alignLeft="@id/imageView2" />
+
+    <TextView
+        android:id="@+id/textCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_alignBaseline="@id/textViewCamera"
+        android:layout_toEndOf="@id/textViewCamera"
+        android:layout_toRightOf="@id/textViewCamera"/>
+
+    <TextView
+        android:id="@+id/textViewRover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rover:"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/textViewCamera"
+        android:layout_alignLeft="@id/imageView2"/>
+
+    <TextView
+        android:id="@+id/textRover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_alignBaseline="@id/textViewRover"
+        android:layout_toEndOf="@id/textViewRover"
+        android:layout_toRightOf="@id/textViewRover"/>
+
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status:"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/textViewRover"
+        android:layout_alignLeft="@id/imageView2"/>
+
+    <TextView
+        android:id="@+id/textStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_alignBaseline="@id/textViewStatus"
+        android:layout_toEndOf="@id/textViewStatus"
+        android:layout_toRightOf="@id/textViewStatus"/>
+
+    <TextView
+        android:id="@+id/textViewLaunch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Launch Date:"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/textViewStatus"
+        android:layout_alignLeft="@id/imageView2"/>
+
+    <TextView
+        android:id="@+id/textLaunch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_alignBaseline="@id/textViewLaunch"
+        android:layout_toEndOf="@id/textViewLaunch"
+        android:layout_toRightOf="@id/textViewLaunch"/>
+
+    <TextView
+        android:id="@+id/textViewLanding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Landing Date:"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/textViewLaunch"
+        android:layout_alignLeft="@id/imageView2"/>
+
+
+    <TextView
+        android:id="@+id/textLanding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_alignBaseline="@id/textViewLanding"
+        android:layout_toEndOf="@id/textViewLanding"
+        android:layout_toRightOf="@id/textViewLanding"/>
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="87dp"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+
+</RelativeLayout>
